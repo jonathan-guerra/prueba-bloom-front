@@ -1,0 +1,176 @@
+.inscribeteButton {
+  width: 130px;
+  height: 66;
+  text-align: center;
+
+  background: #41b7bf 0% 0%;
+  border-radius: 16px;
+  opacity: 1;
+  color: #ffffff;
+}
+
+#contimg {
+  margin-left: 50px;
+  padding-left: 55px;
+  width: 500px;
+}
+.conoceMas {
+  width: 336px;
+  height: 44px;
+  padding-top: 8px;
+  text-align: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  background: #41b7bf 0% 0%;
+  border-radius: 50px;
+  opacity: 1;
+  color: #ffffff;
+  font-size: 18px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+@media (max-width: 720px) {
+  .linea {
+    padding-top: 0;
+    margin-top: 0;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #0f0f0f1c;
+  }
+}
+
+.contenedor {
+  width: 322px;
+}
+.contenedorGrande {
+  text-align: center;
+  font-size: 12px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #606060;
+  background-image: url("../components/img/señora.png");
+  background-repeat: no-repeat;
+}
+h3 {
+  font-size: 20px;
+  color: #535252;
+}
+
+@media (max-width: 720px) {
+  .custom-class {
+    display: list-item;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .invertir {
+    margin-top: 20px;
+  }
+  .contenedorGrande {
+    background-image: none;
+  }
+  .imagenSenior{
+    display: none !important;
+  }
+
+  .contenedorGrandeSenior{
+    margin-left: 0;
+  }
+  .contenedorAzul{
+    display: inline-flexbox !important;
+    font-size: 8px !important;
+    height: 115px !important;
+  }
+  .imagenesPeq1{
+    display: none;
+  }
+  .contenedorAzulPeq{
+    height: 180px !important;
+  }
+  .proyectos{
+    display: none;
+  }
+
+
+}
+
+@media (min-width: 700px) {
+  .contenedorImagen {
+    margin-left: 20%;
+  }
+  .contenedorGrande {
+    height: 180px;
+  }
+  .contMedio2{
+    display: none !important;
+  }
+
+}
+
+.contenedorAzul {
+  background-color: #41b7bf;
+  color: #ffffff;
+  text-align: center;
+  width: 90%;
+  padding-bottom: 10px;
+  box-shadow: -5px 5px 9px #00000029;
+  border-radius: 11px 0px 0px 11px;
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  height: 200px;
+}
+.contenedorGrandeSenior{
+  margin-left: 10%;
+}
+.imagenesPeq{
+  margin-top: 17%;
+  margin-bottom: 7px;
+  width: 70%;
+  width: 50px;
+}
+.imagenSenior{
+  position:relative;
+  background-repeat: no-repeat;
+  z-index: 1;
+  width: 110%;
+  height: 110%;
+  top: -210px;
+}
+.contenedorAzulPeq{
+  background-color: #41b7bf;
+  color: #FFFFFF;
+  text-align: center;
+  border-radius: 11px;
+  box-shadow: -5px 5px 9px #00000029;
+  width: 150px;
+  height:300px;
+}
+
+.imagenesPeq1{
+  /* width: 70%; */
+  width: 90px;
+  position: relative;
+  top: -20px;
+}
+
+
+.contMedio{
+  text-align: center;
+  font-size: 15px;
+  color: #606060;
+  padding-top: 0px;
+}
+.contMedio2{
+  text-align: center;
+  font-size: 15px;
+  color: #606060;
+}
+.centrado{
+  padding-left: 35%;
+}
+
+.inscribeteButton:hover, .conoceMas:hover, .inscribeteButtonFooter:hover{
+  background-color: #ffffff;
+  color: #41b7bf;
+  border: #41b7bf solid 1px;
+}
